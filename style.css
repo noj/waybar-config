@@ -25,6 +25,7 @@ window#waybar {
 #network,
 #tray,
 #custom-swaync,
+#custom-keyboard,
 #idle_inhibitor,
 #custom-vpn {
     margin-left: 2px;
@@ -81,6 +82,9 @@ window#waybar {
 }
 
 /* Battery */
+#battery {
+    color: @blue;
+}
 #battery.charging,
 #battery.plugged {
     color: @green;
@@ -93,6 +97,11 @@ window#waybar {
 #battery.critical {
     color: @red;
     animation: blink 1s infinite;
+}
+
+#custom-keyboard {
+    color: @green;
+
 }
 
 /* VPN */
