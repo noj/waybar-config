@@ -1,10 +1,10 @@
 /* ===== IMPORTS ===== */
- @import "./mocha.css";
+@import "./vesper.css";
 
 /* ===== GLOBAL STYLES ===== */
 * {
-    font-family: "Monaspace Neon", sans-serif;
-    font-size: 12px;
+    font-family: "B612", sans-serif;
+    font-size: 10px;
     font-weight: bold;
     min-height: 0;
     transition: none;
@@ -12,7 +12,7 @@
 
 /* ===== MAIN WINDOW ===== */
 window#waybar {
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.4);
     color: @crust;
     border-bottom: 1px solid;
 }
@@ -58,7 +58,7 @@ window#waybar {
 
 /* Clock */
 #clock {
-    color: @red;
+    color: @yellow;
 }
 
 #clock.date {
@@ -83,7 +83,7 @@ window#waybar {
 
 /* Battery */
 #battery {
-    color: @blue;
+    color: @green;
 }
 #battery.charging,
 #battery.plugged {

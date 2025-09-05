@@ -13,7 +13,7 @@
     "modules-right": [
         "custom/keyboard",
         "idle_inhibitor",
-        "network",
+        // "network",
         // "pulseaudio",
         "battery",
         "tray"
