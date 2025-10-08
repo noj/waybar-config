@@ -14,7 +14,7 @@
     "modules-right": [
         "custom/keyboard",
         "idle_inhibitor",
-        // "network",
+        "network",
         // "pulseaudio",
         "battery",
         "tray"
@@ -117,7 +117,7 @@
     //     "tooltip": false
     // },
     "network": {
-        "format-wifi": " {essid} ({signalStrength}%)",
+        "format-wifi": " {essid}",
         "format-ethernet": "⬇{bandwidthDownBytes} ⬆{bandwidthUpBytes}",
         "interval": 3,
         "format-linked": "{ifname} (No IP) ",

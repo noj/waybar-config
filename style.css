@@ -27,6 +27,7 @@ window#waybar {
 #custom-swaync,
 #custom-keyboard,
 #idle_inhibitor,
+#workspaces,
 #custom-vpn {
     margin-left: 2px;
     margin-right: 2px;
@@ -128,8 +129,8 @@ window#waybar {
 }
 
 #workspaces button.active {
-    background-color: @foreground;
-    color: @background;
+    background-color: @background;
+    color: @sky;
 }
 
 #workspaces button.urgent {
