@@ -32,6 +32,11 @@ window#waybar {
     margin-right: 2px;
     padding: 1px 8px;
     transition: background-color 150ms ease;
+    background: rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    margin-right: 1rem;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
 }
 
 #pulseaudio:hover,

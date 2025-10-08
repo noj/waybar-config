@@ -3,11 +3,12 @@
     "spacing": 0,
     "reload_style_on_change": true,
     "modules-left": [
-        // "niri/workspaces",
+        "niri/workspaces",
+        // "hyprland/workspaces",
         "custom/media"
     ],
     "modules-center": [
-        // "niri/window",
+            // "niri/window",
         "clock"
     ],
     "modules-right": [
@@ -29,8 +30,9 @@
         "spacing": 10
     },
     "clock": {
+        "format": "{:%d   %H:%M}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        "format-alt": "{:%Y-%m-%d}"
+        "format-alt": "{:%Y-%m-%d   %H:%M}"
     },
     "backlight": {
         "format": "{icon} {percent}%",
@@ -87,6 +89,7 @@
     },
     "custom/keyboard": {
         "exec": "niri msg -j keyboard-layouts | jq -r '.names[.current_idx][0:2] | ascii_upcase'",
+        // "exec": "hyprctl devices -j|jq -r '.keyboards .[] | select(.name == \"at-translated-set-2-keyboard\") .active_keymap [0:2] | ascii_upcase'",
         // Interval set only as a fallback, as the value is updated by signal
         "interval": 1,
         "format": "  {}", // Icon: keyboard
