@@ -12,7 +12,7 @@
 
 /* ===== MAIN WINDOW ===== */
 window#waybar {
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.7);
     color: @crust;
     border-bottom: 1px solid;
 }
